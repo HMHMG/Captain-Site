@@ -1,0 +1,65 @@
+/* 기본 설정 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%; /* 동그랗게 만들기 */
+    border: 5px solid white;
+}
+
+/* 메인 섹션 스타일 */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main h2 {
+    color: #1e3799;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+.friends {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.friend {
+    text-align: center;
+}
+
+.friend img {
+    border-radius: 15px;
+    width: 150px;
+    height: 200px; /* 세로 길이 고정 추가! */
+    object-fit: cover; /* 비율 깨지지 않고 잘라줌 */
+    border-radius: 15px;
+}
